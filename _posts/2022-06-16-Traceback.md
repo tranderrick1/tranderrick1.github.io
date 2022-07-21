@@ -8,7 +8,7 @@ author: Derrick
 
 ![](https://i.imgur.com/dVPTnt8.png)
 
-Traceback is one of the boxes I am proud of doing not because of its difficulty, but how fast I was able to gain root on it. Granted, the "hacker" who this box's premised revolved around, left hints that were brutally obvious. This was one of the first times that I did not run into a wall while solving the box. The attack vector was very clear from start to finish.
+Traceback is one of the boxes I am proud of doing not because of its difficulty, but how fast I was able to gain root on it. Granted, the "hacker" who this box's premise revolved around, left hints that were brutally obvious. This was one of the first times that I did not run into a wall while solving the box. The attack vector was very clear from start to finish.
 
 ## Recon
 
