@@ -59,6 +59,7 @@ curl http://tartarsauce.htb/webservices/wp/wp-content/plugins/gwolle-gb/frontend
 ## User
 
 Run `sudo -l` to discover:
+
 ```
 Matching Defaults entries for www-data on TartarSauce:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
@@ -80,7 +81,7 @@ Interesting pspy output:
 
 The script
 
-```{bash}
+```bash
 #!/bin/bash
 
 #-------------------------------------------------------------------------------------
@@ -146,7 +147,7 @@ Basically, its backing up the webroot and pauses for 30 sec. After 30 seconds, i
 
 Within that 30 second gap, remove an existing file and replace it with a symlink to root.txt. To see when the script executes, pay attention to pspy.
 
-Demo
+Demo:
 
 ```
 www-data@TartarSauce.htb: $ ls 

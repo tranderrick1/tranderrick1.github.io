@@ -62,6 +62,8 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 Looks like we got some sort of webshell.
 
 ![](https://i.imgur.com/ewcBU6Q.png)
+
+
 Based on the github repo for this specific webshell, the default creds are just admin admin so lets test that.
 
 ![](https://i.imgur.com/wjLCXwc.png)
@@ -91,6 +93,8 @@ webadmin@traceback:~$
 ```
 
 Worked perfectly however this is not user. sysadmin is the user and we need to pivot to them.
+
+
 > It is also worth noting that message of the day when sshing in
 {: .prompt-idea }
 
