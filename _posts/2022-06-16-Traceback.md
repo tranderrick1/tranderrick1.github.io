@@ -11,7 +11,7 @@ author: Derrick
 Traceback is one of the boxes I am proud of doing not because of its difficulty, but how fast I was able to gain root on it. Granted, the "hacker" who this box's premise revolved around, left hints that were brutally obvious. This was one of the first times that I did not run into a wall while solving the box. The attack vector was very clear from start to finish.
 
 ## Recon
-
+---
 `nmap -sVC 10.10.10.181`
 ```
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-06-15 20:37 EDT
@@ -62,8 +62,6 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 Looks like we got some sort of webshell.
 
 ![](https://i.imgur.com/ewcBU6Q.png)
-
-
 Based on the github repo for this specific webshell, the default creds are just admin admin so lets test that.
 
 ![](https://i.imgur.com/wjLCXwc.png)
@@ -93,8 +91,6 @@ webadmin@traceback:~$
 ```
 
 Worked perfectly however this is not user. sysadmin is the user and we need to pivot to them.
-
-
 > It is also worth noting that message of the day when sshing in
 {: .prompt-idea }
 
@@ -115,9 +111,7 @@ Im sure you know where to find it.
 Contact me if you have any question.
 ```
 
-Couple of interesting finds. Note.txt is referring to some sort of Lua program and `sudo -l` references luvit which is a lua program. Putting two and two together, we can abuse the lua program to spawn a shell as our user.
-
-Running the program just executes lua commands so we can just simply spawn a shell.
+Couple of interesting finds. Note.txt is referring to some sort of Lua program and `sudo -l` references luvit which is a lua program. Putting two and two together, we can abuse the lua program to spawn a shell as our user. Running the program just executes lua commands so we can just simply spawn a shell.
 
 Demo:
 ```
@@ -130,7 +124,7 @@ sysadmin
 User obtained. Time for root.
 
 ## Root
-
+---
 ```
 #################################
 -------- OWNED BY XH4H  ---------
@@ -161,7 +155,7 @@ echo "chmod 7777 /bin/bash" >> /etc/update-motd.d/00-header
 
 Then log out and relog on.
 
-Demo
+Demo:
 ```
 #################################
 -------- OWNED BY XH4H  ---------
