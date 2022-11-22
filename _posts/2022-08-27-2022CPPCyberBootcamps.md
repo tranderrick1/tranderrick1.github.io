@@ -28,6 +28,8 @@ I'm currently working on another blog post regarding my HTB journey so give that
 ## Bootcamp Officially Starts
 ---
 ![](https://i.imgur.com/4rP3HeX.png)
+
+
 Luckily for us this year, the bootcamp was held in-person along with a hybrid component for our online zoom buddies. Bootcamp was held every Saturday from, if I recall correctly, 10am-4pm. 10am - 12pm was the time slot for CPTC and 1pm-4pm was for CCDC. I showed up in person every single week that I could and gave it my absolute all. In contrast to the previous year, I would actually pay attention to the presenters and not sleep. The only issue was that for CPTC, I already knew roughly 75% of the material that they were teaching. Another issue was that once CCDC started, I was solely focused on doing CPTC homework. CCDC topics were interesting but the homework was nothing short of brutal. Giving beginners one week to set up Wordpress on IIS among other hellish tasks is a crime. Many tears were shed while trying to manually set up PHP for the first time. Not mine of course.
 
 I had to cut the bootcamp short due to a family vacation. I missed most of the material from week 4-6 and my grades reflected that. Upon returning, my body was still in vacation mode and I was just on cruise control all the way until the tryouts. A little bit unfortunate but hey, I had my fun.
