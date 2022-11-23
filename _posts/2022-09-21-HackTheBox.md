@@ -1,5 +1,5 @@
 ---
-title: HackTheBox
+title: HackTheBox - The Progression
 date: 2022-09-21-2022
 categories: [Blog]
 tags: [htb]     # TAG names should always be lowercase
