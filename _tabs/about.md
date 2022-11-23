@@ -13,11 +13,13 @@ I got my handle from copying my cousin's Roblox name and replacing a single char
 
 ## Competitive Achievements
 <table style="margin-left:auto;margin-right:auto;width:100%">
-    <tr>
-        <th style="text-align: left;padding: 0.4rem 1rem">Placement</th>
-        <th style="text-align: left;padding: 0.4rem 1rem">Competition</th>
-        <th style="text-align: left;padding: 0.4rem 1rem">Date</th>
-    </tr>
+    <thead>
+        <tr>
+            <th style="text-align: left;padding: 0.4rem 1rem">Placement</th>
+            <th style="text-align: left;padding: 0.4rem 1rem">Competition</th>
+            <th style="text-align: left;padding: 0.4rem 1rem">Date</th>
+        </tr>
+    </thead>
     <tr>
         <td style="text-align: left">1st Place</td>
         <td style="text-align: left">CPTC Western Regionals</td>
