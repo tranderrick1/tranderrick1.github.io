@@ -29,8 +29,23 @@ I got my handle from copying my cousin's Roblox name and replacing a single char
         <td style="text-align: left">October 2022</td>
     </tr>
     <tr>
-        <td style="text-align: left">68th Place</td>
+        <td style="text-align: left">1st Place</td>
+        <td style="text-align: left">SWIFT RvB</td>
+        <td style="text-align: left">April 2022</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">3rd Place</td>
+        <td style="text-align: left">ITC</td>
+        <td style="text-align: left">April 2022</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">5th Place</td>
+        <td style="text-align: left">NCAE South Western Regionals</td>
+        <td style="text-align: left">February 2022</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">64th Place</td>
         <td style="text-align: left">Hivestorm</td>
-        <td style="text-align: left">October 2022</td>
+        <td style="text-align: left">October 2021</td>
     </tr>
 </table>
