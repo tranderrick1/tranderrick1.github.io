@@ -23,24 +23,24 @@ My time with HTB can be split into roughly 3 distinct periods. My first stint wa
     <thead style="text-align: left;padding: 0.4rem 1rem">
         <tr>
             <th>Period</th>
-            <th>Progression</th>
+            <th style="width: 50%">Progression</th>
             <th>Dates</th>
         </tr>
     </thead>
     <tbody style="text-align: left">
         <tr>
             <td>Testing The Waters</td>
-            <td>Completed 3-4 boxes. Each took an ungodly amount of time.</td>
+            <td style="width: 50%">Completed 3-4 boxes. Each took an ungodly amount of time.</td>
             <td>Sep 13 - Nov 6</td>
         </tr>
         <tr>
             <td>Taking Things Seriously</td>
-            <td>Completed nearly 40 boxes over the course of a month and a half. Methodology refined.</td>
+            <td style="width: 50%">Completed nearly 40 boxes over the course of a month and a half. Methodology refined.</td>
             <td>Apr 23 - Jul 26</td>
         </tr>
         <tr>
             <td>The Push For Pro Hacker</td>
-            <td>Completed a chain of active hard boxes. Took a considerable amount of time.</td>
+            <td style="width: 50%">Completed a chain of active hard boxes. Took a considerable amount of time.</td>
             <td>Aug 29 - Sep 11</td>
         </tr>
     </tbody>
