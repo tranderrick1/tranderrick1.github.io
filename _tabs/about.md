@@ -11,6 +11,8 @@ I was first  introduced to the world of offensive security through my older cous
 
 I got my handle from copying my cousin's Roblox name and replacing a single character. Really speaks to my level of creativity.
 
+Here's a link to my [notes](https://succulent-lentil-32e.notion.site/Public-Notes-787152d15e9f40b3a83b2989239c82f9) if you are interested.
+
 ## Competitive Achievements
 <table style="margin-left:auto;margin-right:auto;width:100%">
     <thead>
