@@ -17,8 +17,6 @@ HackTheBox, or HTB for short, is a website that I have used to develop a general
 
 My time with HTB can be split into roughly 3 distinct periods. My first stint was cut off by an egregious addiction to Genshin Impact, severely hampering my progress into cyber security as a whole. Upon a wake up call in late February, I set off to continue my HTB journey in late April. This period continued until I went on a vacation with my family. Within a month, I came back and grinded for the title of "Pro Hacker"
 
-![](https://i.imgur.com/YUu0X38.png)
-
 <table style="width:100%">
     <thead style="text-align: left;padding: 0.4rem 1rem">
         <tr>
@@ -48,21 +46,23 @@ My time with HTB can be split into roughly 3 distinct periods. My first stint wa
 
 
 
-### Testing The Waters (Late Fall 2021)
+### Testing The Waters
 ---
 The very first box I took on went by the name "Cap". The mascot was a pirate with a face seemingly saying "Arghh". The box is aptly named cap due to the intended path involving p.CAP files as well as certain binary CAPabilities. Despite the box only requiring roughly 3 steps and the fastest completion time being roughly 5 minutes, it took me over 12 hours to complete. I admit my method for learning was not the greatest and I don't recommend people to bash their head similarly to how I did, but its what I did to learn. I remember staring at my screen for several hours at a time searching up the most random things in attempt to move forward. Funny story, I remember searching up "Port 22 exploit" following an nmap scan as if it would help me. The first handful of boxes took me several hours to complete just a few steps. It was demoralizing I will admit. After 12 hours I looked back and realize how few things I have done. It's painful, but that sound that plays when you submit the root flag, boy does that fuel me for days.
 
-### Taking Things Seriously (All Summer 2022)
+### Taking Things Seriously
 ---
 After completing a few boxes of the current rotation, I felt confident enough to purchase a VIP subscription. With this I am now able to access all of the old retired boxes. I tried my hand at several of the old easy and medium boxes and quickly realized that during my head-bashing sessions, I actually obtained a very primitive penetration testing methodology. These old boxes would be completed with ease. I would stay up nights trying to complete as many boxes as I could in a day. The sun peering through my window would by my signal to go to bed. 12+ hours would shrink to 1-3 hours for these quick and easy boxes and pretty soon, I realized, "I should aim for Pro Hacker".
 
-### The Push For Pro Hacker (Early Fall 2022)
+### The Push For Pro Hacker
 ---
 HTB gives out titles based on completion of the current rotation of boxes. The issue is, there is no telling of how good or bad the quality of these boxes may be. However, having completed 40 boxes told me that I might be ready for the challenge. And so I started, one by one clearing all of the easy boxes. Took a bit but that was not too tough. 
 
 Then came the medium boxes. I would spend a handful of hours across these boxes. One in particular I was not even able to compete. A box named "Retired" dealt with a buffer overflow in which I have no idea how to perform on a Linux system. Luckily for me, the box was retired (haha) and replaced by a much more reasonable "medium" box. Upon completing all of the easy and medium boxes, I only need 3 and a half more boxes to gain the elusive title. Issue is, only insane and hard boxes remain. 
 
 Taking my brother's advice, I decide not to even consider any of the insane boxes as those would put me through utter hell. That leaves only hard boxes left. I did some background research to complete the easier hard boxes and really, they were just longer versions of an easy or medium box. Not too bad. The two boxes left in my way were "Carpediem" and "Vessel". These two boxes were rated pretty highly by the community. Accompanying the high ratings were also the high difficulty ratings. Long story short, I managed to overcome the both of them to gain my title of "Pro Hacker". The cost? Only about 50 hours over the course of 2 weeks. I have detailed writeups on my notes which I will link at the bottom of the page if you are interested.
+
+![](https://i.imgur.com/YUu0X38.png)
 
 ## Changing Gears
 
