@@ -26,7 +26,7 @@ title: dumosuku                          # the main title
 tagline: Aspiring pentester from Cal Poly Pomona   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  I'm not good at CSS.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -34,8 +34,8 @@ url: ''
 github:
   username: tranderrick1             # change to your github username
 
-#twitter:
-# username: twitter_username            # change to your twitter username
+twitter:
+  username: igota7onmyessay            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,11 +44,11 @@ social:
   email: tranderrick1@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
+    - https://twitter.com/igota7onmyessay      # change to your twitter homepage
     - https://github.com/tranderrick1       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/derrickttran
 
 google_site_verification:               # fill in to your verification string
 

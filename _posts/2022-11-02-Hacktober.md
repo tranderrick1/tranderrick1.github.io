@@ -17,30 +17,34 @@ This past October, SWIFT has celebrated the National Cyber Security Awareness Mo
 I knew that Hacktober was coming up and I really enjoy teaching topics related to offensive security. This would be a great opportunity for me to spread the knowledge. The only issue is that I have not given a formal presentation in a few years so, here goes nothing, right? The next question was, "What do I want to teach?". List of topics to cover over the month:
 
 <table style="margin-left:auto;margin-right:auto">
-    <tr>
-        <th style="text-align: left;padding: 0.4rem 1rem">Topic</th>
-        <th style="text-align: left;padding: 0.4rem 1rem">Learning Goals</th>
-        <th style="text-align: left;padding: 0.4rem 1rem">Environment</th>
-    </tr>
-    <tr>
-        <td style="text-align: left">Metasploit</td>
-        <td style="text-align: left">Teach the basics of metasploit as well as basic reconnaissance and enumeration.</td>
-        <td style="text-align: left">1 Linux host serving 3 vulnerable services.</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">Webapp</td>
-        <td style="text-align: left">Teach the basics of website enumeration, tools, and overall methodology. Also include basic injection techniques.</td>
-        <td style="text-align: left">1 Linux hosting an intentionally vulnerable website.</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">Active Directory</td>
-        <td style="text-align: left">Teach common windows privesc as well as common AD attacks.</td>
-        <td style="text-align: left">1 Windows domain controller with common AD misconfigurations.</td>
-    </tr>
+    <thead>
+        <tr>
+            <th style="text-align: left;padding: 0.4rem 1rem">Topic</th>
+            <th style="text-align: left;padding: 0.4rem 1rem">Learning Goals</th>
+            <th style="text-align: left;padding: 0.4rem 1rem">Environment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left">Metasploit</td>
+            <td style="text-align: left">Teach the basics of metasploit as well as basic reconnaissance and enumeration.</td>
+            <td style="text-align: left">1 Linux host serving 3 vulnerable services.</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Webapp</td>
+            <td style="text-align: left">Teach the basics of website enumeration, tools, and overall methodology. Also include basic injection techniques.</td>
+            <td style="text-align: left">1 Linux hosting an intentionally vulnerable website.</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Active Directory</td>
+            <td style="text-align: left">Teach common windows privesc as well as common AD attacks.</td>
+            <td style="text-align: left">1 Windows domain controller with common AD misconfigurations.</td>
+        </tr>
+    </tbody>
 </table>
 
 
-I figured that Webapps would most likely be the most fun for me to teach. It has some pretty interesting attacks you could play with and is, well hopefully, easy enough to teach to beginners as well.
+I figured that Webapp week would most likely be the most fun for me to teach. It has some pretty interesting attacks you could play with and is, well hopefully, easy enough to teach to beginners as well.
 
 ## The Birth of JimCoin
 ---
@@ -51,27 +55,31 @@ To get started, I needed a basic web application to work with. A fellow colleagu
 The webapp had some nice basic functionality but I wanted more. Taking some pages out of HackTheBox, I wanted to implement some common website vulnerabilities that I dealt with. Vulnerabilities such as: 
 
 <table style="margin-left:auto;margin-right:auto">
-    <tr>
-        <th style="text-align: left;padding: 0.4rem 1rem">Vulnerability</th>
-        <th style="text-align: left;padding: 0.4rem 1rem">Summary</th>
-    </tr>
-    <tr>
-        <td style="text-align: left">SQL Injection</td>
-        <td style="text-align: left">An injection technique based on improper sanitization of user input used to craft malicious SQL queries.</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">Local file inclusion</td>
-        <td style="text-align: left">Unsafe file handling leading to exposure of local files.</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">Improper access controls</td>
-        <td style="text-align: left">You aren't supposed to be here.</td>
-    </tr>
+    <thead>
+        <tr>
+            <th style="text-align: left;padding: 0.4rem 1rem">Vulnerability</th>
+            <th style="text-align: left;padding: 0.4rem 1rem">Summary</th>
+        </tr>
+    </thead>
+    </tbody>
+        <tr>
+            <td style="text-align: left">SQL Injection</td>
+            <td style="text-align: left">An injection technique based on improper sanitization of user input used to craft malicious SQL queries.</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Local file inclusion</td>
+            <td style="text-align: left">Unsafe file handling leading to exposure of local files.</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Improper access controls</td>
+            <td style="text-align: left">You aren't supposed to be here.</td>
+        </tr>
+    </tbody>
 </table>
 
 On top of these, I wanted to also teach the basic methodology of attacking a webapp so I included materials going over the usage of Burpsuite, gobuster, and so on.
 
-As the site was nearing it's completion, I noticed that the default currency that was being used, Etherium, was not going to cut it. We need something new, something that really expresses us as a group. Enter, JimCoin. JimCoin is just a fake currency made up by us as a parody of one of our members. The original owner of the webapp created a subdomain for the site called "Jimmy Flips" where you can click a button to flip a picture of Jimmy to gain JimCoin. Using these coins, you can now purchase NFTs.
+As the site was nearing it's completion, I noticed that the default currency that was being used, Etherium, was not going to cut it. We need something new, something that really expresses us as a group. Enter, JimCoin. JimCoin is just a fake currency made up by us as a parody of one of our members. The original owner of the webapp created a subdomain for the site called "Jimmy Flips" where you can click a button to flip a picture of our friend to gain JimCoin. Using these coins, you can now purchase NFTs.
 
 ## Presentation of the Material
 ---
@@ -98,7 +106,7 @@ In the end, my mentee ended up winning the event by a large margin. The second p
 
 ## Conclusion
 ---
-![](https://i.imgur.com/vrWmA55.png)
+![](https://i.imgur.com/3NUzUCc.jpg)
 
 Overall Hacktober was a success, but we can definitely use some improvements. First and foremost, I would've liked some more help from my peers as I did notice people taking a step back as the CPTC Kill Squad took over the month of teaching. We are only 3 people and we can only do so much. This put a lot of strain on us and phew was it stressful.
 
