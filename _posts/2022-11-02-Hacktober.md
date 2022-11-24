@@ -61,7 +61,7 @@ The webapp had some nice basic functionality but I wanted more. Taking some page
             <th style="text-align: left;padding: 0.4rem 1rem">Summary</th>
         </tr>
     </thead>
-    </tbody>
+    <tbody>
         <tr>
             <td style="text-align: left">SQL Injection</td>
             <td style="text-align: left">An injection technique based on improper sanitization of user input used to craft malicious SQL queries.</td>
