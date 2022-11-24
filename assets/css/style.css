@@ -148,7 +148,7 @@
  
  #sidebar .sidebar-bottom .mode-toggle,
  #sidebar a {
-     color: rgba(117, 117, 117, 0.9);
+     color: rgb(255 255 255 / 80%);
      user-select: none
  }
  
@@ -1725,7 +1725,7 @@
          --checkbox-checked-color: var(--link-color);
          --sidebar-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
          --sidebar-muted-color: rgb(255 255 255 / 80%);
-         --sidebar-active-color: #6d6c6b;
+         --sidebar-active-color: rgb(255 255 255 / 100%);
          --nav-cursor-color: rgb(183, 182, 182);
          --sidebar-btn-bg: rgb(117 116 116 / 20%);
          --topbar-text-color: var(--text-color);
@@ -1852,7 +1852,7 @@
          --checkbox-checked-color: var(--link-color);
          --sidebar-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
          --sidebar-muted-color:rgb(255 255 255 / 80%);
-         --sidebar-active-color: #6d6c6b;
+         --sidebar-active-color: rgb(255 255 255 / 100%);
          --nav-cursor-color: rgb(183, 182, 182);
          --sidebar-btn-bg: rgb(117 116 116 / 20%);
          --topbar-text-color: var(--text-color);
