@@ -1111,7 +1111,7 @@
          --nav-cursor-color: rgb(183, 182, 182);
          --sidebar-btn-bg: rgb(117 116 116 / 20%);
          --topbar-text-color: var(--text-color);
-         --topbar-wrapper-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
+         --topbar-wrapper-bg: rgb(39, 40, 43);
          --search-wrapper-bg: rgb(34, 34, 39);
          --search-wrapper-border-color: rgb(34, 34, 39);
          --search-icon-color: rgb(100, 102, 105);
@@ -1238,7 +1238,7 @@
          --nav-cursor-color: rgb(183, 182, 182);
          --sidebar-btn-bg: rgb(117 116 116 / 20%);
          --topbar-text-color: var(--text-color);
-         --topbar-wrapper-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
+         --topbar-wrapper-bg: rgb(39, 40, 43);
          --search-wrapper-bg: rgb(34, 34, 39);
          --search-wrapper-border-color: rgb(34, 34, 39);
          --search-icon-color: rgb(100, 102, 105);
@@ -1375,7 +1375,7 @@
         --nav-cursor-color: rgb(183, 182, 182);
         --sidebar-btn-bg: rgb(117 116 116 / 20%);
         --topbar-text-color: var(--text-color);
-        --topbar-wrapper-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
+        --topbar-wrapper-bg: rgb(39, 40, 43);
         --search-wrapper-bg: rgb(34, 34, 39);
         --search-wrapper-border-color: rgb(34, 34, 39);
         --search-icon-color: rgb(100, 102, 105);
