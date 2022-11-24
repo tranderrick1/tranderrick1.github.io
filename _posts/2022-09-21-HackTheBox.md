@@ -15,7 +15,7 @@ HackTheBox, or HTB for short, is a website that I have used to develop a general
 ---
 ![](https://i.imgur.com/21KySwf.png)
 
-My time with HTB can be split into roughly 3 distinct periods. My first stint was cut off by an egregious addiction to Genshin Impact, severely hampering my progress into cyber security as a whole. Upon a wake up call in late February, I set off to continue my HTB journey in late April. This period continued until I went on a vacation with my family. Within a month, I came back and grinded for the title of "Pro Hacker"
+My time with HTB can be split into roughly 3 distinct periods. My first stint was cut off by an egregious addiction to Genshin Impact, severely hampering my progress into cyber security as a whole. Upon a wake up call in late February, I set off to continue my HTB journey in late April. This period continued until I went on a vacation with my family. Within a month, I came back and grinded for the title of "Pro Hacker".
 
 <table style="width:100%">
     <thead style="text-align: left;padding: 0.4rem 1rem">
@@ -65,6 +65,7 @@ Taking my brother's advice, I decide not to even consider any of the insane boxe
 ![](https://i.imgur.com/YUu0X38.png)
 
 ## Changing Gears
+---
 
 After obtaining the title, a couple of my colleagues along with my brother convinced me to move on from the platform if I wanted to continue my learning. While it is true that I learned a lot from HTB, I was also becoming comfortable. I was performing different attacks on each machine however, my methods and tooling were always the same. If I want to improve technically, I need to start reading into how XYZ works or prepare for OSCP/CTRO. Regardless of what's next, I need to get ready for CPTC. Western Regionals are coming up.
 

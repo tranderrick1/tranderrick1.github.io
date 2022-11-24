@@ -12,7 +12,7 @@ This past October, SWIFT has celebrated the National Cyber Security Awareness Mo
 
 ## The Calm Before the Storm
 ---
-![](https://i.imgur.com/JgyFycT.jpg)
+![](https://i.imgur.com/1N88svA.png)
 
 I knew that Hacktober was coming up and I really enjoy teaching topics related to offensive security. This would be a great opportunity for me to spread the knowledge. The only issue is that I have not given a formal presentation in a few years so, here goes nothing, right? The next question was, "What do I want to teach?". List of topics to cover over the month:
 
