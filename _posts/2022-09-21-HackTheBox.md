@@ -27,7 +27,7 @@ My time with HTB can be split into roughly 3 distinct periods. My first stint wa
             <th>Dates</th>
         </tr>
     </thead>
-    </tbody style="text-align: left">
+    <tbody style="text-align: left">
         <tr>
             <td>Testing The Waters</td>
             <td>Completed 3-4 boxes. Each took an ungodly amount of time.</td>
@@ -64,7 +64,7 @@ Then came the medium boxes. I would spend a handful of hours across these boxes.
 
 Taking my brother's advice, I decide not to even consider any of the insane boxes as those would put me through utter hell. That leaves only hard boxes left. I did some background research to complete the easier hard boxes and really, they were just longer versions of an easy or medium box. Not too bad. The two boxes left in my way were "Carpediem" and "Vessel". These two boxes were rated pretty highly by the community. Accompanying the high ratings were also the high difficulty ratings. Long story short, I managed to overcome the both of them to gain my title of "Pro Hacker". The cost? Only about 50 hours over the course of 2 weeks. I have detailed writeups on my notes which I will link at the bottom of the page if you are interested.
 
----
+## Changing Gears
 
 After obtaining the title, a couple of my colleagues along with my brother convinced me to move on from the platform if I wanted to continue my learning. While it is true that I learned a lot from HTB, I was also becoming comfortable. I was performing different attacks on each machine however, my methods and tooling were always the same. If I want to improve technically, I need to start reading into how XYZ works or prepare for OSCP/CTRO. Regardless of what's next, I need to get ready for CPTC. Western Regionals are coming up.
 
