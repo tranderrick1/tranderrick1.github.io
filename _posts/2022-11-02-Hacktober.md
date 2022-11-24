@@ -52,12 +52,12 @@ The webapp had some nice basic functionality but I wanted more. Taking some page
 
 <table style="margin-left:auto;margin-right:auto">
     <tr>
-        <th style="text-align: left;padding: 0.4rem 1rem; width:33%">Vulnerability</th>
-        <th style="text-align: left;padding: 0.4rem 1rem; width: 66%">Summary</th>
+        <th style="text-align: left;padding: 0.4rem 1rem">Vulnerability</th>
+        <th style="text-align: left;padding: 0.4rem 1rem">Summary</th>
     </tr>
     <tr>
         <td style="text-align: left">SQL Injection</td>
-        <td style="text-align: left;word-wrap: break-word">An injection technique based on improper sanitization of user input used to craft malicious SQL queries.</td>
+        <td style="text-align: left">An injection technique based on improper sanitization of user input used to craft malicious SQL queries.</td>
     </tr>
     <tr>
         <td style="text-align: left">Local file inclusion</td>
