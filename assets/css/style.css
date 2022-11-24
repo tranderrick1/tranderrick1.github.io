@@ -1851,8 +1851,8 @@
          --checkbox-color: rgb(118 120 121);
          --checkbox-checked-color: var(--link-color);
          --sidebar-bg: radial-gradient( circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%);
-         --sidebar-muted-color: #6d6c6b;
-         --sidebar-active-color: rgb(255 255 255 / 80%);
+         --sidebar-muted-color:rgb(255 255 255 / 80%);
+         --sidebar-active-color: #6d6c6b;
          --nav-cursor-color: rgb(183, 182, 182);
          --sidebar-btn-bg: rgb(117 116 116 / 20%);
          --topbar-text-color: var(--text-color);
